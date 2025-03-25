@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 97vh;
+    width: 97vw;
+}
+
+body {
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    position: relative;
+    height: 100vh;  
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 550px;
+    height: 550px;
+    background: url(../imagens/iphone.png) no-repeat center center;
+    background-attachment: fixed;
+
+}
+
+iframe#tela {
+    position: relative;
+    top: 97px;
+    left: 173px;
+    width: 204px;
+    height: 360px;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 45px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.596);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.596);
+    transition: transform 0.5s;
+    transform: translate(-3px, -3px);
+}
+
